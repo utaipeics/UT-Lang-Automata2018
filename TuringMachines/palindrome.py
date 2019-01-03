@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
             if tape.read() in ['0', '1']:
                 tape.move_head(Direction.RIGHT)
-            elif tape.read() in ['x', 'y']:
+            elif tape.read() in ['d', 'x', 'y']:
                 break
 
             while tape.read() in ['0', '1']:
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
             if tape.read() in ['0', '1']:
                 tape.move_head(Direction.RIGHT)
-            elif tape.read() in ['x', 'y']:
+            elif tape.read() in ['d', 'x', 'y']:
                 break
 
             while tape.read() in ['0', '1']:
